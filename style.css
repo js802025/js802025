@@ -6,83 +6,100 @@ html, body {
   /* body, html {
     height: 100%;
   } */
-  .caption {
-    position: absolute;
-    left: 0;
-    top: 20%;
-    width: 100%;
-    text-align: center;
-    color: #000;
-}
+ 
 
-  .bg-1 {
-    background-image: url("https://cdn.discordapp.com/attachments/803804130182692965/1001553358802391190/Stickman.png");
-  
-    /* Full height */
-    min-height: 100%;
-  }
-
-  .bg-2 {
-    background-image: url("images/largecircle.png");
-  
-    /* Full height */
-    min-height: 100%;
-  }
-  .bg-3 {
-    background-image: url("images/SkillduleIcon.jpg");
-  
-    /* Full height */
-    min-height: 100%;
-  }
-  .bg-4 {
-    background-image: url("https://cdn.discordapp.com/attachments/963292322123112448/990947815431745556/IMG_6576.jpg");
-  
-    /* Full height */
-    min-height: 100%;
-  }
-  .bg-5 {
-    background-image: url("images/FWPSGLogo.png");
-  
-    /* Full height */
-    min-height: 100%;
-  }
-  .bg-6 {
-    background-image: url("images/robot.jpg");
-  
-    /* Full height */
-    min-height: 100%;
-  }
-    .bg-7 {
-        background-image: url("images/desmos.png");
-    
-        /* Full height */
-        min-height: 100%;
-    }
-  .bg-1, .bg-2, .bg-3, .bg-4, .bg-5, .bg-6, .bg-7, .bg-8, .bg-9, .bg-10 {
-    /* The image used */
-    position: relative;
-    
-  
-    /* Create the parallax scrolling effect */
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
 
   .paraw {
     max-width: 40%;
-    left: 30%;
+    left: 30% !important;
   }
 
-  @media only screen and (max-width: 600px) {
+
+  .row {
+    margin-right: 0px !important;
+    margin-left: 0px !important;
+  }
+  @media only screen and (max-width: 1365px) {
     .paraw {
         max-width: 90%;
         left:5%;
     }
-  }
-  @media only screen and (max-device-width: 1366px) {
-    .parallax {
-      background-attachment: scroll;
+    .mobile-header {
+        display: 
+        block;
     }
+    .caption {
+      margin: auto;
+    }
+    .bg-1, .bg-2, .bg-3, .bg-4, .bg-5, .bg-6, .bg-7, .bg-8, .bg-9, .bg-10 {
+      /* The image used */
+      margin: auto;
+    }
+  }
+  @media only screen and (min-device-width: 1366px) {
+    .bg-1 {
+      background-image: url("https://cdn.discordapp.com/attachments/803804130182692965/1001553358802391190/Stickman.png");
+    
+      /* Full height */
+      min-height: 100%;
+    }
+  
+    .bg-2 {
+      background-image: url("images/largecircle.png");
+    
+      /* Full height */
+      min-height: 100%;
+    }
+    .bg-3 {
+      background-image: url("images/SkillduleIcon.jpg");
+    
+      /* Full height */
+      min-height: 100%;
+    }
+    .bg-4 {
+      background-image: url("https://cdn.discordapp.com/attachments/963292322123112448/990947815431745556/IMG_6576.jpg");
+    
+      /* Full height */
+      min-height: 100%;
+    }
+    .bg-5 {
+      background-image: url("images/FWPSGLogo.png");
+    
+      /* Full height */
+      min-height: 100%;
+    }
+    .bg-6 {
+      background-image: url("images/robot.jpg");
+    
+      /* Full height */
+      min-height: 100%;
+    }
+      .bg-7 {
+          background-image: url("images/desmos.png");
+      
+          /* Full height */
+          min-height: 100%;
+      }
+    .bg-1, .bg-2, .bg-3, .bg-4, .bg-5, .bg-6, .bg-7, .bg-8, .bg-9, .bg-10 {
+      /* The image used */
+      position: relative;
+      
+    
+      /* Create the parallax scrolling effect */
+      background-attachment: fixed;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+    .mobile-header {
+        display: none;
+    }
+    .caption {
+      position: absolute;
+      left: 0;
+      top: 30%;
+      width: 100%;
+      text-align: center;
+      color: #000;
+  }
   }
